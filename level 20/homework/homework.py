@@ -87,7 +87,7 @@ while num7 <= 10:
     num7 = num7 + 1
 print(num - 5)
 
-# #task 15
+#task 15
 def num(x):
     if x % 3 == 0:
         return x
@@ -98,7 +98,31 @@ def num(x):
 number = num(int(input("Enter your number: ")))
 print(number)
 
-# #task 19
+#task 16
+def mean(listn):
+    return sum(listn) / len(listn)
+print(mean([1, 5, 8, 9]))
+
+#task 17
+def make_upper(str1):
+    result = ""
+    for i in range(len(str1)):
+        if i % 2 == 0:
+            result += str1[i].upper()
+        else:
+            result += str1[i]
+    return result
+print(make_upper("hello"))
+
+ #task 18     
+def quadratic_list(lst):
+    result = []
+    for i in lst:
+        result.append(i ** 2)
+    return result
+print(quadratic_list([1, 2, 3, 4, 5]))
+
+#task 19
 greeting = "HellO"
 print(greeting.upper())
 print(greeting.lower())
@@ -109,4 +133,12 @@ print(len(greeting))
 
 listm = [1, 2, 3, 4, 5]
 print(listm.index(3))
-print(listm.insert(1, "hi"))
+listm.insert(1, "hi")
+print(listm)
+listm.append(9)
+print(listm)
+listm.pop(3)
+print(listm)
+print(len(listm))
+
+
