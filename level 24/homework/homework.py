@@ -4,24 +4,20 @@ def aritmetic(nums):
 print(aritmetic([2, 6, 8]))
 
 #task 2
-def manual_abs(num):
-    if num == -num:
-        return num 
+def mean(nums):
+    if nums < 0:
+        return -nums
     else:
-        pass
-print(manual_abs(-9))
-
-def manualabs(num):
-    return abs(num)
-print(manualabs(-9))
+        return nums
+print(mean(-10))
 
 #task 3
-def none_repeat(listn):
-    lst = []
-    for i in range(len(listn)):
-        if listn[i] != listn[i]:
-             return lst + listn
-        else:
-            return lst
-    
-print(none_repeat([1, 2, 4, 4, 7]))
+def dup_list(listn):
+    result = []
+    for i in listn:
+        if i not in result:
+            result.append(i)
+    return result
+print(dup_list([1, 2, 3, 1]))
+
+            
