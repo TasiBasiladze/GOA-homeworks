@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Tint&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Tint&family=Edu+VIC+WA+NT+Beginner:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+#hw1 {
+    font-family: "Bungee Tint", sans-serif;
+}
+
+#hw2 {
+    font-family: "Edu VIC WA NT Beginner", sans-serif;
+}
+
+#hw3 {
+    font-family: "Lobster", sans-serif;
+}
+
+#t {
+    text-decoration-line: line-through;
+}
+
+#o {
+    text-decoration-line: overline;
+}
+
+#so {
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+}
+
+#da {
+    text-decoration-line: underline;
+    text-decoration-style: dashed;
+}
+
+#do {
+    text-decoration-line: underline;
+    text-decoration-style: dotted;
+}
+
+#dou {
+    text-decoration-line: underline;
+    text-decoration-style: double;
+}
+
+#wa {
+    text-decoration-line: underline;
+    text-decoration-style: wavy;
+}
+
+#no {
+    text-decoration-line: underline;
+    text-decoration-style: none;
+}

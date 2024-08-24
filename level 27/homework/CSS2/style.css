@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Grey+Qo&family=Pacifico&family=Sankofa+Display&display=swap');
+
+#p1 {
+    font-family: "Pacifico", sans-serif;
+
+    font-size: 30px;
+}
+
+body {
+    text-align: center;
+    background-color: rgb(213, 175, 248);
+}
+
+h2 {
+    color: brown;
+    text-decoration: underline;
+}
+
+p {
+    font-family: sans-serif;
+    color: white;
+    background-color: black;
+}
