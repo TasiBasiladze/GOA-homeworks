@@ -1,0 +1,2 @@
+#task 3
+#a tuple is a built-in data type that allows you to create immutable sequences of values. tuples are immutable, that means that you cant change anything there after you created it, so you cant use functions in there as .append, .insert, .pop. also tuple is ordered. that means that it's have index sequence
