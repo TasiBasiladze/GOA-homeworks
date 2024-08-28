@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Sevillana&display=swap');
+p{
+    font-size: 50px;
+    transition: font-size 3s easy;
+}
+
+p:hover{
+    font-size: 200px;
+    color: rgb(225, 58, 194);
+    background-color: black;
+    width: 350px;
+    text-decoration-line: underline;
+    text-decoration-style: dashed;
+    font-family: "Sevillana", sans-serif;
+}
