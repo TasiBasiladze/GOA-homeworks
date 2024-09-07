@@ -1,0 +1,6 @@
+div {
+    width: 300px;
+    height: 200px;
+    background-color: yellow;  
+    border-radius: 0px 300px 0px 300px;
+}
