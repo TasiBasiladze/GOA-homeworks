@@ -1,0 +1,18 @@
+.item{
+    height: 50px;
+    width: 1500px;
+}
+
+.item-1{
+    background-color: blue;
+}
+
+.item-2{
+    background-color: red;
+}
+
+.item-3{
+    background-color: blueviolet;
+    position: sticky;
+    top: 0px;
+}
