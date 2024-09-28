@@ -1,0 +1,50 @@
+.parent{
+    width: 400px;
+    height: 400px;
+    display: grid;
+    grid-template-columns: (3, 100);
+    grid-template-rows: (4, 100);
+    grid-gap: 10px;
+}
+
+.all{
+    border: solid 3px black;
+    color: white;
+    text-align: center;
+}
+
+.h{
+    grid-column: 1 / 4;
+    grid-row-start: 1;
+    background-color: blueviolet;
+}
+
+.s{
+    grid-column-start: 1;
+    grid-row: 2 / 4;
+    background-color: aquamarine;
+}
+
+.c1{
+    grid-column: 2 / 4;
+    grid-row-start: 2;
+    background-color: cornflowerblue;
+}
+
+.c2{
+    grid-column-start: 2;
+    grid-row-start: 3;
+    background-color: cornflowerblue;
+}
+
+.c3{
+    grid-column-start: 3;
+    grid-row-start: 3;
+    background-color: cornflowerblue;
+}
+
+.f{
+    grid-column: 1 / 4;
+    grid-row-start: 4;
+    background-color: blueviolet;
+}
