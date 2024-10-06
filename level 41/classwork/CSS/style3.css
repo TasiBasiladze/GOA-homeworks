@@ -1,0 +1,35 @@
+div{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation-name: ChangeDiv;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes ChangeDiv{
+    0%{
+        background-color: red;
+        transform: scale(1);
+    }
+
+    25%{
+        background-color: blue;
+        transform: scale(2);
+    }
+
+    50%{
+        background-color: green;
+        transform: scale(3);
+    }
+
+    75%{
+        background-color: yellow;
+        transform: scale(2);
+    }
+
+    100%{
+        background-color: violet;
+        transform: scale(1);
+    }
+}

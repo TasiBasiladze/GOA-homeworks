@@ -1,0 +1,20 @@
+div{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation-name: Change;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes Change{
+    from{
+        background-color: red;
+        transform: scale(1);
+    }
+
+    to{
+        background-color: blue;
+        transform: scale(2) rotate(360deg);
+    }
+}

@@ -1,0 +1,19 @@
+div{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: relative;
+    animation-name: Move;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes Move{
+    from{ 
+        left: 0px;
+    }
+
+    to{
+        left: 100px;
+    }
+}
