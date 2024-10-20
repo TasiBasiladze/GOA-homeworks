@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(224, 232, 255);
+    background-image: url(./image/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: 1600px 430px;  /* width x height */
+    background-position: top;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.box{
+    height: 604px;
+    width: 354px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 16px;
+    padding: 48px;
+}
+
+.photo1{
+    margin: -48px;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+}
+
+h1{
+    font-family: Red Hat Display;
+    font-size: 24px;
+    color: rgb(34, 51, 94);
+}
+
+.h1{
+    display: flex;
+    justify-content: center;
+    margin-top: 103px;
+}
+
+p{
+    color: #737a8d;
+    font-family: Red Hat Display;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+    line-height: 1.5;
+    margin-top: 25px;
+}
+
+.annual-plan{
+    background-color: rgb(248, 249, 254);
+    padding: 20px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.text-group{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+h2{
+    font-family: Red Hat Display;
+    font-size: 14px;
+    color: rgb(34, 0, 51);
+}
+
+h3{
+    font-family: Red Hat Display;
+    font-size: 14px; 
+    color: rgb(125, 128, 145);
+}
+
+a{
+    margin-left: 90px;
+    font-family: Red Hat Display;
+    font-weight: 700;
+    font-size: 12px;
+}
+
+.payment{
+    width: 100%;
+    height: 50px;
+    border-radius: 12px;
+    border: none;
+    background-color: rgb(56, 42, 225);
+    margin-top: 32px;
+    font-family: Red Hat Display;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    box-shadow: 0 20px 50px rgb(212, 221, 252);
+}
+
+.cancel{
+    width: 100%;
+    border: none;
+    margin-top: 36px;
+    font-family: Red Hat Display;
+    color: rgb(118, 129, 159);
+    font-weight: 700;
+    background-color: rgb(255, 255, 255);
+}
+
+a:hover{
+    text-decoration: none;
+    color: rgb(121, 110, 232);
+}
+
+.payment:hover{
+    background-color: rgb(118, 108, 241);
+}
+
+.cancel:hover{
+    color: rgb(16, 20, 73);
+}
