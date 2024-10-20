@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: hsl(217, 54%, 11%);
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    padding: 25px;
+}
+
+.div1{
+    height: 610px;
+    width: 345px;
+    background-color: rgb(21, 39, 63);
+    border-radius: 15px;
+    margin-top: 80px;
+}
+
+.photo{
+    height: 295px;
+    width: 295px;
+    margin: 25px;
+    background-image: url(../image-equilibrium.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 15px;
+}
+
+.main{
+    font-family: "Outfit";
+}
+
+.Equilibrium{
+    margin-left: 25px;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.p{
+    margin-left: 25px;
+    margin-top: 28px;
+    color: rgb(106, 130, 158);
+    font-weight: 300;
+    line-height: 1.5;
+}
+
+.img{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 25px;
+    font-weight: 400;
+    border-bottom: 0.5px solid rgb(106, 130, 158);
+    margin: 25px;
+}
+
+.pct1{
+    color: cyan;
+}
+
+.pct2{
+    color: rgb(106, 130, 158);
+}
+
+.avatar{
+    margin: -15px;
+    margin-left: 25px;
+}
+
+.av{
+    border: 1px solid white;
+    border-radius: 50%;
+}
+
+.p2{
+    display: flex;
+    gap: 5px;
+    flex-direction: row;
+    justify-content: center;
+    margin: -30px;
+    margin-right: -10px;
+    text-align: center;
+}
+
+.pgp1{
+    color: rgb(106, 130, 158);;
+}
+
+.pgp2{
+    color: white;
+}
+
+.photo:hover{
+    background-image: url(../imagine/icon-view.svg);
+    background-repeat: no-repeat;
+    background-color: aqua;
+    opacity: 0.1;
+    cursor: pointer;
+}
+
+.Equilibrium:hover{
+    color: cyan;
+    cursor: pointer;
+}
+
+.pgp2:hover{
+    color: cyan;
+    cursor: pointer;
+}
