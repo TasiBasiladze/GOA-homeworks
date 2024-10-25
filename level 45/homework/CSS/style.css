@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(243, 229, 216);
+}
+
+main{
+    height: 1955px;
+    width: 1440px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div1{
+    height: 1800px;
+    width: 695px;
+    background-color: white;
+    border-radius: 15px;
+    padding: 45px;
+}
+
+.photo{
+    height: 340px;
+    width: 695px;
+    background-image: url(../image-omelette.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 15px;
+    margin: 40;
+    background-position: -30px 0;
+}
+
+.main{
+    height: 1368px;
+    width: 695px;
+}
+
+.title{
+    font-family: "Young Serif";
+    margin-top: 40px;
+}
+
+.recipe{
+    margin-top: 40px;
+    color: rgb(129, 125, 122);
+    font-family: "Outfit";
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.lst1{
+    background-color: rgb(255, 247, 252);
+    border-radius: 12px;
+    height: 200px;
+    margin-top: 40px;
+    font-family: "Outfit";
+}
+
+.for-lst{
+    display: flex;
+    flex-direction: row;
+}
+
+.p1{
+    margin-left: 5px;
+    color: rgb(148, 147, 145);
+    font-weight: 400;
+}
+
+.prep{
+    margin-left: 40px;
+    margin-top: 30px;
+}
+
+
+.lst-title{
+    margin-left: 30px;
+    padding-top: 30px;
+    color: rgb(117, 41, 71);
+}
+
+ul{
+    line-height: 2;
+    list-style-type: none;
+}
+
+ul .li{
+    position: relative;
+    padding-left: 30px;
+    color: rgb(99, 89, 87);
+}
+
+ul .li::before{
+    content: "•";
+    color: rgb(117, 41, 71);
+    position: absolute;
+    left: 0;
+    top: 0
+}
+
+
+
+.ing-title{
+    margin-top: 30px;
+    color: rgb(124, 59, 39);
+    font-family: "Young Serif";
+
+}
+
+.ing-lst{
+    margin-top: 20px;
+    font-family: "Outfit";
+    color: rgb(148, 147, 145);
+    font-weight: 400;
+    border-bottom: 0.5px solid rgb(224, 224, 224);
+    padding-bottom: 37px;
+}
+
+ul .li2{
+    position: relative;
+}
+
+ul .li2::before{
+    content: "•";
+    color: rgb(124, 59, 39);
+    margin-right: 30px;
+
+}
+
+.li3 p{
+    display: inline;
+}
+
+.inst-lst h4{
+    display: inline;
+}
+
+ol{
+    line-height: 1.5;
+}
+
+.li3{
+    padding-top: 4px;
+}
+
+ol{
+    margin-top: 30px;
+}
+
+.inst-lst p{
+    display: inline;
+    line-height: 1.5;
+    color: rgb(117, 109, 109);
+    font-family: Outfit;
+    font-weight: 400;
+}
+
+.inst-lst h4{
+    line-height: 1.5;
+    display: inline;
+    color: rgb(96, 87, 80);
+    font-family: Outfit;
+    font-weight: 600;
+}
+
+.inst-lst ol{
+    line-height: 1.8;
+    margin-left: 20px;
+    margin-top: 24px;
+    color: rgb(128, 72, 49);
+    font-family: Outfit;
+    font-weight: 700;
+}
+
+.inst-title{
+    margin-top: 35px;
+    font-family: "Young Serif";
+}
+
+.instruction{
+    border-bottom: 1px solid rgb(224, 224, 224);
+    padding-bottom: 37px;
+}
+
+
+
+
+.last-title{
+    margin-top: 35px;
+    font-family: "Young Serif";
+    color: rgb(128, 72, 49);
+}
+
+.pgp{
+    margin-top: 35px;
+    font-family: "Outfit";
+    color: rgb(117, 109, 109);
+}
+
+.last-div{
+    display: flex;
+    flex-direction: column;
+    margin-top: -10px;
+    padding: 33px;
+    font-weight: 800px;
+    font-family: "Outfit";
+}
+
+table{
+    border-collapse: collapse;
+}
+
+tr{
+    border-bottom: 1px solid rgb(224, 224, 224);
+    line-height: 50px;
+}
+
+table tr:last-child{
+    border-bottom: none;
+}
+
+.value{
+    color: rgb(128, 72, 49);;
+}
+
+.td{
+    color: rgb(117, 109, 109);
+}
+
+
