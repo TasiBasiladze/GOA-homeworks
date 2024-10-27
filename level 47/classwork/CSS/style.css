@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&family=Outfit:wght@100..900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-image: url(../bg-pattern-top-desktop.svg), url(../bg-pattern-bottom-desktop.svg);
+    background-position: left top, right bottom;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+main{
+    height: 800px;
+    width: 1440px;
+    font-family: "League Spartan";
+}
+
+.first-div{
+    padding: 165px;
+}
+
+.main-box{
+    width: 1110px;
+    height: 268px;
+    position: absolute;
+    top: 434px;
+    left: 165px;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    
+}
+
+.box1{
+    width: 260px;
+    height: 150px;
+    background-color: rgb(81, 32, 80);
+    border-radius: 10px;;
+    padding: 45px;
+}
+
+.box2{
+    width: 260px;
+    height: 150px;
+    background-color: rgb(81, 32, 80);
+    border-radius: 10px;
+    margin-top: 16px;
+    padding: 45px;
+}
+
+.box3{
+    width: 260px;
+    height: 150px;
+    background-color: rgb(81, 32, 80);
+    border-radius: 10px;
+    margin-top: 32px;
+    padding: 45px;
+}
+
+.icon{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.icon1{
+    background-image: url(../image-colton.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.icon2{
+    background-image: url(../image-irene.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.icon3{
+    background-image: url(../image-anne.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.nickname{
+    margin-left: 65px;
+    margin-top: -35px;
+}
+
+.name{
+    color: white;
+    font-weight: 700;
+}
+
+.verified{
+    color: rgb(199, 83, 145);
+    font-weight: 400;
+    margin-top: 8px;
+}
+
+.pgp{
+    margin-top: 35px;
+    width: 286px;
+    line-height: 1.2;
+    color: white;
+    font-weight: 400;
+}
+
+.main-longbox{
+    width: 540px;
+    height: 200px;
+    position: absolute;
+    left: 735px;
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+    
+}
+
+.long-box1{
+    width: 445px;
+    height: 58px;
+    background-color: rgb(247, 242, 248);
+    border-radius: 12px;
+}
+
+.long-box2{
+    width: 445px;
+    height: 58px;
+    background-color: rgb(247, 242, 248);
+    margin-left: 50px;
+    border-radius: 12px;
+}
+
+.long-box3{
+    width: 445px;
+    height: 58px;
+    background-color: rgb(247, 242, 248);
+    margin-left: 100px;
+    border-radius: 12px;
+}
+
+.star{
+    margin-top: 18px;
+    margin-left: 33px;
+}
+
+.rate{
+    margin-left: 160px;
+    margin-top: -18px;
+    font-weight: 700;
+    color: rgb(81, 32, 80);
+}
+
+.big-pgp{
+    color: rgb(81, 32, 80);
+    font-weight: 500;
+}
+
+.classic-pgp{
+    margin-top: 30px;
+    line-height: 1.5;
+    color: rgb(163, 140, 158);
+    font-weight: 400;
+}
