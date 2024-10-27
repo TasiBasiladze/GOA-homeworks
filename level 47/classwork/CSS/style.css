@@ -30,7 +30,7 @@ main{
     height: 268px;
     position: absolute;
     top: 434px;
-    left: 165px;
+    left: 205px;
     display: flex;
     flex-direction: row;
     gap: 30px;
@@ -115,7 +115,7 @@ main{
     width: 540px;
     height: 200px;
     position: absolute;
-    left: 735px;
+    left: 765px;
     display: flex;
     flex-direction: column;
     gap: 17px;
@@ -160,11 +160,12 @@ main{
 .big-pgp{
     color: rgb(81, 32, 80);
     font-weight: 500;
+    font-size: 20px;
 }
 
 .classic-pgp{
     margin-top: 30px;
     line-height: 1.5;
     color: rgb(163, 140, 158);
-    font-weight: 400;
+    font-weight: 500;
 }
