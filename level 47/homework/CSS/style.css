@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=League+Spartan:wght@100..900&family=Outfit:wght@100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "Hanken Grotesk";
+}
+
+main{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main{
+    height: 514px;
+    width: 740px;
+    border-radius: 40px;
+    box-shadow: 50px 10px 50px rgb(231, 237, 251);
+    display: flex;
+    flex-direction: row;
+}
+
+.box1{
+    height: 384px;
+    width: 240px;
+    background: linear-gradient(to top, rgb(46, 40, 220), rgb(99, 64, 252));
+    border-radius: 40px;
+    padding: 65px;
+}
+
+.box2{
+    height: 434px;
+    width: 290px;
+    background-color: white;
+    border-radius: 40px;
+    padding: 40px;
+}
+
+.num{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background: linear-gradient(to bottom, rgb(79, 39, 203), rgb(70, 51, 237));
+    position: relative;
+    top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    line-height: 1.2;
+}
+
+.res{
+    text-align: center;
+    position: relative;
+    top: -20px;
+    font-size: 18px;
+    color: rgb(135, 131, 255);
+}
+
+.fornum{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.your{
+    font-size: 40px;
+    color: white;
+}
+
+.great{
+    margin-top: 60px;
+    text-align: center;
+    color: white;
+}
+
+.pgp{
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 1.5;
+    margin-top: 15px;
+    color: rgb(135, 131, 255);
+}
+
+.n{
+    text-align: center;
+}
+
+.max{
+    color: rgb(135, 131, 255);
+}
+
+.for-div{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 35px;
+}
+
+.small_div{
+    width: 250px;
+    height: 16px;
+    background-color: brown;
+    border-radius: 12px;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.small_div1{
+    background-color: rgb(255, 246, 245);
+}
+
+.small_div2{
+    background-color: rgb(255, 251, 242);
+}
+
+.small_div3{
+    background-color: rgb(242, 251, 250);
+}
+
+.small_div4{
+    background-color: rgb(243, 243, 253);
+}
+
+button{
+    margin-top: 42px;
+    text-align: center;
+    width: 100%;
+    height: 56px;
+    border-radius: 50px;
+    border-style: none;
+    background-color: rgb(48, 59, 89);
+    font-size: 16px;
+    color: white;
+    font-weight: 500;
+}
+
+.sum{
+    color: rgb(48, 59, 89);
+    font-size: 17px;
+}
+
+.title{
+    margin-left: 17px;
+    font-weight: 500;
+}
+
+.title1{
+    color: rgb(254, 100, 102);
+}
+
+.title2{
+    color: rgb(255, 200, 53);
+}
+
+.title3{
+    color: rgb(23, 189, 139);
+}
+
+.title4{
+    color: rgb(43, 55, 215);
+}
+
+.score{
+    display: flex;
+    flex-direction: row;
+    font-weight: 700;
+}
+
+.s2{
+    margin-left: 8px;
+    color: rgb(151, 149, 163);
+}
+
+.s1{
+    color: rgb(48, 59, 89);
+}
+
+.score1{
+    margin-left: 83px;
+}
+
+.score3{
+    margin-left: 100px;
+}
+
+.score2{
+    margin-left: 87px;
+}
+
+.score4{
+    margin-left: 105px;
+}
+
+button:hover{
+    background: linear-gradient(to top, rgb(46, 40, 220), rgb(99, 64, 252));
+    cursor: pointer;
+}
+
