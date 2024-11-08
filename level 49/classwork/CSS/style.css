@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=League+Spartan:wght@100..900&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+main{
+    height: 200vh;
+    font-family: "Poppins";
+}
+
+.parent-div{
+    padding: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.paragraphs{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.container1{
+    font-size: 32px;
+    font-weight: 200;
+    color: rgb(85, 83, 94);
+}
+
+.container2{
+   color: rgb(79, 80, 98);
+}
+
+.container3{
+    line-height: 1.5;
+    margin-top: 20px;
+    font-size: 13px;
+    color: rgb(175, 174, 179);
+    font-weight: 400;
+}
+
+.boxes{
+    display: flex;
+    flex-direction: column;
+}
+
+.box1{
+    height: 170px;
+    width: 270px;
+    background-color: white;
+    position: absolute;
+    top: 310px;
+    right: 590px;
+    border-top: solid rgb(236, 83, 86) 5px;
+    border-radius: 10px;
+    box-shadow: 10px 20px 50px rgb(185, 204, 226);
+    padding: 30px;
+}
+
+.box2{
+    height: 170px;
+    width: 270px;
+    background-color: white;
+    position: absolute;
+    top: 510px;
+    right: 590px;
+    margin-top: 60px;
+    margin-left: 20px;
+    border-top: solid 5px rgb(252, 174, 74);
+    border-radius: 10px;
+    box-shadow: 10px 20px 50px rgb(185, 204, 226);
+    padding: 30px;
+}
+
+.box3{
+    height: 170px;
+    width: 270px;
+    background-color: white;
+    position: absolute;
+    right: 950px;
+    margin-top: 280px;
+    border-top: solid rgb(64, 213, 211) 5px;
+    border-radius: 10px;
+    box-shadow: 10px 20px 50px rgb(185, 204, 226);
+    padding: 30px;
+}
+
+.box4{
+    height: 170px;
+    width: 270px;
+    background-color: white;
+    position: absolute;
+    right: 230px;
+    margin-top: 280px;
+    border-top: solid rgb(81, 159, 242) 5px;
+    border-radius: 10px;
+    box-shadow: 10px 20px 50px rgb(185, 204, 226);
+    padding: 30px;
+}
+
+.icon{
+    margin-top: 100px;
+    margin-left: 200px;
+}
+
+.mini-title{
+    margin-top: -175px;
+    font-weight: 400;
+    font-size: 14px;
+    color: rgb(79, 80, 98);
+}
+
+.mini-pgp{
+    font-size: 12px;
+    margin-top: 10px;
+    color: rgb(175, 174, 179);
+    font-weight: 400;
+}
