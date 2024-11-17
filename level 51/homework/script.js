@@ -4,7 +4,7 @@
 //task 3
 let num1 = 5;
 let num2 = 6;
-console.log(num1 + num2)
+console.log(num1 + num2);
 
 //task 4
 //console is an object in JavaScript that provides methods for outputting information to the browser's console. It is used for debugging code and displaying messages such as errors, warnings, calculation results, and other information.
