@@ -6,3 +6,9 @@ function ChangeColor(){
 }
 
 bt1.onclick = ChangeColor;
+
+
+
+
+
+
