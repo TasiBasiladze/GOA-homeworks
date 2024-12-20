@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./CSS/style.css">
+</head>
+<body>
+    <main id="main">
+        <div class="first-div">
+            <div class="child-div1">
+                <div class="title">
+                    <p class="t">Mortgage Calculator</p>
+                    <a href="#" id="link">Clear All</a>
+                </div>
+                <div class="term">
+                    <div class="nums">
+                        <label for="num1" class="l1">Mortgage amount</label><br>
+                        <div class="input-border" id="input-border">
+                            <span class="prefix" id="prefix"><p class="p">£</p></span>
+                            <input type="number" name="number1" id="num1">
+                        </div>
+                    </div>
+                    <div class="nums2">
+                        <label for="num2" class="l1">Mortgage Term</label>
+                        <div class="input-border2" id="input-border2">
+                            <input type="number" name="number2" id="num2">
+                            <span class="sufix" id="sufix"><p class="p2">years</p></span>
+                        </div>
+                    </div>
+                    <div class="nums3">
+                        <label for="num3" class="l l1">Interest Rate</label><br>
+                        <div class="input-border3" id="input-border3">
+                            <input type="number" name="number3" id="num3">
+                            <span class="sufix2" id="sufix2"><p class="p3">%</p></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="r">
+                    <label for="loan-type-group" class="l1">Mortgage Type</label>
+                    <div id="loan-type-group" class="radio-group">
+                        <label class="radio-lable" id="rl1">
+                            <input type="radio" name="loan-type" value="repayment" class="r1" id="r1">
+                            Repayment
+                        </label>
+                        <label class="radio-lable" id="rl2">
+                            <input type="radio" name="loan-type" value="interest-only" class="r1" id="r2">
+                            Interest Only
+                        </label>
+                    </div>
+                </div>
+                <div class="main-but">
+                    <button class="but" id="but"><img src="./images/icon-calculator.svg" alt=""> Calculate Repayment</button>
+                </div>
+            </div>
+            <div class="child-div2">
+                <div class="none" id="none">
+                    <div class="text">
+                        <p class="title-none">Your results</p>
+                        <p class="text-none">Your results are shown below based on the information <br>
+                        you provided. To adjust the results, edit the form and <br>
+                        click "calculate repayments" again</p>
+                    </div>
+                    <div class="calculate">
+                        <div class="mothly">
+                            <p class="title-month">Your mothly repayment</p>
+                            <div class="mothly-mini" id="monthly"></div>
+                        </div>
+                        <div class="total">
+                            <p class="title-total">Total you'll repay over the term</p>
+                            <div class="total-mini" id="totally"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="block" id="block">
+                    <img src="./images/illustration-empty.svg" alt="" class="illustration">
+                    <div class="block-pgp">
+                        <div class="block-title">
+                            <p class="b-t">Results shown here</p>
+                        </div>
+                        <div class="block-text">
+                            <p class="b-tx">Complete the form and click "calculate repayments" to</p>
+                            <p class="b-tx">see what your monthly repayments would be.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="./script.js"></script>
+</body>
+</html>
