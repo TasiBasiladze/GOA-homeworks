@@ -71,18 +71,6 @@ radio1.addEventListener("click", function() {
         radioLable1.style.border = "solid 1px rgb(204, 209, 117)";
         radioLable2.style.backgroundColor = "";
         radioLable2.style.border = "";
-        sf1.style.backgroundColor = "";
-        div2.style.border = "";
-        sf2.style.backgroundColor = "";
-        div3.style.border = "";
-        pr.style.backgroundColor = "";
-        div1.style.border = "";
-        sf2.style.backgroundColor = "";
-        div3.style.border = "";
-        pr.style.backgroundColor = "";
-        div1.style.border = "";
-        sf1.style.backgroundColor = "";
-        div2.style.border = "";
     }
 });
 
@@ -95,18 +83,6 @@ radio2.addEventListener("click", function() {
         radioLable2.style.border = "solid 1px rgb(204, 209, 117)";
         radioLable1.style.backgroundColor = "";
         radioLable1.style.border = "";
-        sf1.style.backgroundColor = "";
-        div2.style.border = "";
-        sf2.style.backgroundColor = "";
-        div3.style.border = "";
-        pr.style.backgroundColor = "";
-        div1.style.border = "";
-        sf2.style.backgroundColor = "";
-        div3.style.border = "";
-        pr.style.backgroundColor = "";
-        div1.style.border = "";
-        sf1.style.backgroundColor = "";
-        div2.style.border = "";
     }
 });
 
@@ -147,6 +123,21 @@ num3.addEventListener("click", function(){
     div2.style.border = "";
 })
 
+num1.addEventListener("blur", () => {
+    pr.style.backgroundColor = "";
+    div1.style.border = "";
+})
+
+num2.addEventListener("blur", () => {
+    sf1.style.backgroundColor = "";
+    div2.style.border = "";
+})
+
+num3.addEventListener("blur", () => {
+    sf2.style.backgroundColor = "";
+    div3.style.border = "";
+})
+
 const n = document.getElementById("none");
 const b = document.getElementById("block");
 const link = document.getElementById("link");
@@ -164,17 +155,11 @@ link.addEventListener("click", function(){
     radioLable1.style.border = "";
     radioLable2.style.backgroundColor = "";
     radioLable2.style.border = "";
-    sf1.style.backgroundColor = "";
-    div2.style.border = "";
-    sf2.style.backgroundColor = "";
-    div3.style.border = "";
-    pr.style.backgroundColor = "";
-    div1.style.border = "";
-    sf2.style.backgroundColor = "";
-    div3.style.border = "";
     pr.style.backgroundColor = "";
     div1.style.border = "";
     sf1.style.backgroundColor = "";
     div2.style.border = "";
+    sf2.style.backgroundColor = "";
+    div3.style.border = "";
 })
 
