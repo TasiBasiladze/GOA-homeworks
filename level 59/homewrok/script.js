@@ -62,7 +62,7 @@ button.addEventListener("click", function(e){
 
 const radio1 = document.getElementById("r1");
 const radio2 = document.getElementById("r2");
-radio1.addEventListener("change", function() {
+radio1.addEventListener("click", function() {
     const radioLable1 = document.getElementById("rl1");
     const radioLable2 = document.getElementById("rl2");
 
@@ -71,10 +71,22 @@ radio1.addEventListener("change", function() {
         radioLable1.style.border = "solid 1px rgb(204, 209, 117)";
         radioLable2.style.backgroundColor = "";
         radioLable2.style.border = "";
+        sf1.style.backgroundColor = "";
+        div2.style.border = "";
+        sf2.style.backgroundColor = "";
+        div3.style.border = "";
+        pr.style.backgroundColor = "";
+        div1.style.border = "";
+        sf2.style.backgroundColor = "";
+        div3.style.border = "";
+        pr.style.backgroundColor = "";
+        div1.style.border = "";
+        sf1.style.backgroundColor = "";
+        div2.style.border = "";
     }
 });
 
-radio2.addEventListener("change", function() {
+radio2.addEventListener("click", function() {
     const radioLable1 = document.getElementById("rl1");
     const radioLable2 = document.getElementById("rl2");
 
@@ -83,6 +95,18 @@ radio2.addEventListener("change", function() {
         radioLable2.style.border = "solid 1px rgb(204, 209, 117)";
         radioLable1.style.backgroundColor = "";
         radioLable1.style.border = "";
+        sf1.style.backgroundColor = "";
+        div2.style.border = "";
+        sf2.style.backgroundColor = "";
+        div3.style.border = "";
+        pr.style.backgroundColor = "";
+        div1.style.border = "";
+        sf2.style.backgroundColor = "";
+        div3.style.border = "";
+        pr.style.backgroundColor = "";
+        div1.style.border = "";
+        sf1.style.backgroundColor = "";
+        div2.style.border = "";
     }
 });
 
