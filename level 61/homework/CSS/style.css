@@ -17,10 +17,10 @@ main{
 
 .first-div{
     width: 381px;
-    height: 350px;
+    height: 500px;
     background-color: white;
     position: absolute;
-    top: 167px;
+    top: 100px;
     left: 520px;
     border-radius: 15px;
     padding: 42px;
@@ -47,9 +47,68 @@ main{
 .pgp{
     font-size: 12px;
     line-height: 1.5;
-    margin-top: 10px;
+    margin-top: 1px;
     color: rgb(151, 134, 151);
     font-weight: 400;
+}
+
+.down-pgp1{
+    display: none;
+
+}
+
+.down-pgp2{
+    position: absolute;
+    font-size: 12px;
+    line-height: 1.5;
+    margin-top: 5px;
+    color: rgb(151, 134, 151);
+    font-weight: 400;
+    
+
+}
+
+.pd1{
+    position: absolute;
+    height: 66px;
+    width: 350px;
+    margin-top: 30px;
+    display: none;
+}
+
+.pd2{
+    position: absolute;
+    height: 66px;
+    width: 350px;
+    margin-top: 30px;
+    display: none;
+    
+}
+
+.down-pgp3{
+    position: absolute;
+    font-size: 12px;
+    margin-top: 5px;
+    line-height: 1.5;
+    color: rgb(151, 134, 151);
+    font-weight: 400;
+}
+
+.down-pgp4{
+    position: absolute;
+    font-size: 12px;
+    line-height: 1.5;
+    color: rgb(151, 134, 151);
+    font-weight: 400;
+    
+}
+
+.pd3{
+    position: absolute;
+    height: 66px;
+    width: 350px;
+    margin-top: 35px;
+    display: none;
 }
 
 .minus{
@@ -58,7 +117,7 @@ main{
 }
 
 .qvs{
-    margin-top: 30px;
+    margin-top: 10px;
 }
 
 .qv{
@@ -98,5 +157,12 @@ main{
     color: rgb(159, 32, 235);
 }
 
+.title:hover{
+    cursor: pointer;
+    color: rgb(159, 32, 235);
+}
 
+.img:hover{
+    cursor: pointer;
+}
 

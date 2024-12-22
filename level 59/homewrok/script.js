@@ -40,7 +40,7 @@ button.addEventListener("click", function(e){
         sf2.style.backgroundColor = "rgb(225, 245, 254)"
     }
 
-    if (num1.value !== "" && num2.value !== "" && num3.value !== "" && radio1.checked || radio2.checked) {
+    if (num1.value !== "" && num2.value !== "" && num3.value !== "" && (radio1.checked || radio2.checked)) {
         n.style.display = "block";
         b.style.display = "none";
     }
