@@ -7,9 +7,9 @@ function Computer(brand, processor, ram, storage) {
     this.processor = processor; 
     this.ram = ram; 
     this.storage = storage;
-    this.displaySpecs = function () {
+    this.displaySpecs = function() {
       return `Brand: ${this.brand}, Processor: ${this.processor}, RAM: ${this.ram}GB, Storage: ${this.storage}GB`;
-    };
+    }
   }
   
   const myComputer = new Computer("Apple", "M1", 16, 512);
