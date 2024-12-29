@@ -18,8 +18,8 @@ function randomPassword() {
     let length = 8;
     let symbols = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890!@#$%^&*/_-";
     let pass = "";
-    for(let i = 0, n = symbols.length; i < length; ++i){
-        pass += symbols[Math.floor(Math.random() * n)];
+    for(let i = 0; i < length; ++i){
+        pass += symbols[Math.floor(Math.random() * symbols.length)];
     }
     return pass
 }
