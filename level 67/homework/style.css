@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=League+Spartan:wght@100..900&family=Outfit:wght@100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    height: 100vh;
+    background-color: rgb(53, 55, 78);
+    font-family: "Roboto";
+}
+
+.parent{
+    width: 629px;
+    height: 440px;
+    background-color: white;
+    position: absolute;
+    top: 150px;
+    left: 450px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    color: rgb(35, 39, 68);
+    font-weight: 500;
+}
+
+.child1{
+    width: 240px;
+    height: 340px;
+    padding: 50px;
+}
+
+.child2{
+    width: 289px;
+    height: 100%;
+    background-image: url(./illustration-sign-up-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: calc(100% - 30px) auto;
+    background-position: 5px 27px;
+}
+
+.title{
+    font-size: 35px;
+    font-weight: 500;
+    margin-top: 20px;
+}
+
+.pgp{
+    font-size: 10.5px;
+    font-weight: 500;
+    line-height: 1.5;
+    margin-top: 10px;
+}
+
+.points{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-top: 20px;
+}
+
+.p1{
+    font-size: 10.5px;
+    position: absolute;
+    margin-left: 30px;
+    margin-top: -22px;
+}
+
+.mail{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 100%;
+    height: 100px;
+}
+
+label{
+    position: absolute;
+    margin-top: 20px;
+    font-size: 10px;
+    
+}
+
+#email {
+    height: 40px;
+    width: 100%;
+    font-size: 14px;
+    text-indent: 20px;
+    border: solid 1px rgb(200, 200, 200);
+    border-radius: 5px;
+    outline: none;
+    
+}
+
+.button1{
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(35, 39, 68);
+    color: white;
+    font-size: 11px;
+    font-weight: 500;
+}
+
+.validation{
+    position: absolute;
+    font-size: 10px;
+    margin-left: 152px;
+    margin-top: 20px;
+    color: rgb(212, 99, 93);
+    display: none;
+}
+
+.parent2{
+    height: 300px;
+    width: 247px;
+    background-color: white;
+    position: absolute;
+    margin-top: 175px;
+    margin-left: 560px;
+    border-radius: 30px;
+    padding: 54px;
+    color: rgb(35, 39, 68);
+    display: none;
+}
+
+.suscces-title{
+    font-size: 40px;
+    font-weight: 500;
+    margin-top: 20px;
+}
+
+.suscces-pgp{
+    font-size: 11px;
+    line-height: 1.5;
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+.button-div{
+    width: 100%;
+    height: 60px;
+}
+
+.button2{
+    width: 100%;
+    height: 40px;
+    margin-top: 20px;
+    background-color: rgb(35, 39, 68);
+    color: white;
+    font-size: 12px;
+    font-weight: 500;
+    border-radius: 5px;
+    border: none;
+}
+
+button:hover{
+    background: linear-gradient(to right, rgb(255, 83, 121), rgb(255, 105, 62));
+    cursor: pointer;
+}
