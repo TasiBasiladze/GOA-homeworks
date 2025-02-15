@@ -41,8 +41,13 @@ let input = "Hello";
 input.length > 0 && console.log("Input is not empty");
 
 //task 5
-//how does work ternary operations: you write some condition or variable, after that write "?" and two options of output separated with ":". if condition or variable is true, output is option that is on the left side of ":", if it's false, output is on the right side of ":".
-//how does work && operations: here as well, you write some condition or variable, console.log and separate them with &&. as we know, && operation works only if both conditions are true, so if condition is true, then whatever is in "console.log" outputs, and vice versa if it's false
+//how does work ternary operations: you write some condition or variable, after that write "?"
+//and two options of output separated with ":". if condition or variable is true, output is option 
+//that is on the left side of ":", if it's false, output is on the right side of ":".
+
+//how does work && operations: here as well, you write some condition or variable, console.log
+//and separate them with &&. as we know, && operation works only if both conditions are true, 
+//so if condition is true, then whatever is in "console.log" outputs, and vice versa if it's false
 
 //task 6
 function varExample() {
