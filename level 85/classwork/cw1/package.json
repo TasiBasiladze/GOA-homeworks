@@ -1,0 +1,12 @@
+{
+  "name": "cw1",
+  "version": "1.0.0",
+  "description": "my package json",
+  "license": "ISC",
+  "author": "Taso Basiladze",
+  "type": "commonjs",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
