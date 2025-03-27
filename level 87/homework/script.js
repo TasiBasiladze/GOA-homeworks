@@ -42,7 +42,7 @@ promise4
     .catch(err => console.log(err));
 
 //task 5
-promise5 = new Promise((resolve, reject) => {
+promise5 = new Promise((resolve) => {
     resolve(5);
 });
 
@@ -50,8 +50,7 @@ promise5
     .then(res => res)
     .then(res => res * 2)
     .then(res => res * 2)
-    .then(res => console.log(res * 2))
-    .catch(err => console.log(err));
+    .then(res => console.log(res * 2));
 
 //task 6
 const promise6 = new Promise((resolve, reject) => {
