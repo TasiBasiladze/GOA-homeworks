@@ -11,9 +11,9 @@ export default function MovieCard({ title, image, description, rating, genre, re
 
       {showMore && (
         <div>
-          <p><strong>Rating:</strong> {rating}</p>
-          <p><strong>Genre:</strong> {genre}</p>
-          <p><strong>Release Date:</strong> {releaseDate}</p>
+          <p><b>Rating:</b> {rating}</p>
+          <p><b>Genre:</b> {genre}</p>
+          <p><b>Release Date:</b> {releaseDate}</p>
         </div>
       )}
 
