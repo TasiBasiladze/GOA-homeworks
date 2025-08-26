@@ -1,0 +1,9 @@
+.p1{
+    color: rgb(92, 92, 255);
+    background-color: rgb(255, 187, 104);
+    border: 1px solid black;
+}
+
+.p1:hover{
+    background-color: bisque;
+}

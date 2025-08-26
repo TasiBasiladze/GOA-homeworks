@@ -1,0 +1,14 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+main{
+  height: 100vh;
+  padding: 30px 355px;
+}
+
+header{
+  display: flex;
+  justify-content: space-between;
+}
