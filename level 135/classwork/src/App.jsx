@@ -35,8 +35,8 @@ function App(){
       if(user.email === formData.email && user.password === formData.password){
         setLocalStorage("curUser", user);
         setCurUser(user);
-        navigate("/");
         setIsError(false);
+        navigate("/");
         return;
       } 
     }
