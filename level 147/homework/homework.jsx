@@ -1,0 +1,1 @@
+//React.memo() function wraps component and prevents it's repetitive rendering if props of component weren't changed
