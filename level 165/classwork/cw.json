@@ -1,0 +1,62 @@
+[
+    {
+        "brand": "Toyota",
+        "model": "Corolla",
+        "year": 2018,
+        "color": "Red"
+    },
+    {
+        "brand": "Honda",
+        "model": "Civic",
+        "year": 2020,
+        "color": "Blue"
+    },
+    {
+        "brand": "Ford",
+        "model": "Mustang",
+        "year": 2019,
+        "color": "Black"
+    },
+    {
+        "brand": "Chevrolet",
+        "model": "Camaro",
+        "year": 2021,
+        "color": "Yellow"
+    },
+    {
+        "brand": "BMW",
+        "model": "X5",
+        "year": 2017,
+        "color": "White"
+    },
+    {
+        "brand": "Audi",
+        "model": "A4",
+        "year": 2019,
+        "color": "Gray"
+    },
+    {
+        "brand": "Mercedes",
+        "model": "C-Class",
+        "year": 2020,
+        "color": "Silver"
+    },
+    {
+        "brand": "Tesla",
+        "model": "Model 3",
+        "year": 2021,
+        "color": "Red"
+    },
+    {
+        "brand": "Nissan",
+        "model": "Altima",
+        "year": 2018,
+        "color": "Blue"
+    },
+    {
+        "brand": "Volkswagen",
+        "model": "Golf",
+        "year": 2019,
+        "color": "Green"
+    }
+]
