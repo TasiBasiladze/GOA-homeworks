@@ -6,8 +6,22 @@ const app = http.createServer((req, res) => {
 
     const url = new URL(req.url, "http://localhost:3000")
     const splitCar = url.pathname.slice(1).split("/");
+    const query = url.searchParams
+    if(url.pathname === "/cars" && req.method === "GET" && query.size > 0){
+        const queryDetails = Object.entries(Object.fromEntries(query))
+        const filterCars = cars.filter(car => {
+            for(const [key, value] of queryDetails){
+                if(car[key] != value){
+                    return false
+                }
+            }
+            return true
+        })
+        res.setHeader("content-type", "application/json");
+        res.end(JSON.stringify(filterCars));
+    }
 
-    if (url.pathname === "/cars" && req.method === "GET"){
+    else if (url.pathname === "/cars" && req.method === "GET"){
         res.setHeader("content-type", "application/json");
         res.end(JSON.stringify(cars))
     } else if(splitCar.length == 2 && splitCar[0] == "cars" && req.method == "GET"){
@@ -29,7 +43,6 @@ const app = http.createServer((req, res) => {
         const carIndex = cars.findIndex(car => car.id == parseInt(splitCar[1]))
         cars.splice(carIndex, 1)
         fs.writeFileSync("cars.json", JSON.stringify(cars), "utf-8");
-        res.setHeader("content-type", "application/json");
         res.end("car was deleted successfully!")
     }
 })
@@ -37,14 +50,3 @@ const app = http.createServer((req, res) => {
 app.listen(3000, () => {
     console.log("seever is listening...");
 })
-
-//query is part of the URL that is mostly used to help the server filter the data it sends back in the response. 
-//the query string starts with a "?" after the main URL path and is written in the form "key=value". 
-//if you want to include multiple queries, you separate them with "&". 
-
-//example URL with a query: 
-//https://example.com/products?category=books 
-//here "category=books" filters products to show only books. 
-
-//you can also add more queries, for example: 
-//https://example.com/products?category=books&sort=price
