@@ -1,0 +1,51 @@
+[
+  {
+    "id": 1,
+    "name": "Laptop",
+    "category": "Electronics",
+    "price": 1200,
+    "inStock": true
+  },
+  {
+    "id": 2,
+    "name": "Headphones",
+    "category": "Electronics",
+    "price": 150,
+    "inStock": false
+  },
+  {
+    "id": 3,
+    "name": "Coffee Mug",
+    "category": "Kitchen",
+    "price": 12,
+    "inStock": true
+  },
+  {
+    "id": 4,
+    "name": "Notebook",
+    "category": "Stationery",
+    "price": 5,
+    "inStock": true
+  },
+  {
+    "id": 5,
+    "name": "Backpack",
+    "category": "Accessories",
+    "price": 45,
+    "inStock": true
+  },
+  {
+    "id": 6,
+    "name": "Sneakers",
+    "category": "Clothing",
+    "price": 90,
+    "inStock": false
+  },
+  {
+    "id": 7,
+    "name": "Water Bottle",
+    "category": "Sports",
+    "price": 18,
+    "inStock": true
+  }
+]
