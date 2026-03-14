@@ -6,7 +6,7 @@ const getPosts = (req, res) => {
 };
 
 const addPost = (req, res) => {
-    posts.push({id: posts.length ? Math.max(...posts.map(p => p.id)) + 1 : 1, ...req.body});
+    posts.push({id: posts.length == 0 ? 1 : posts.at(-1).id + 1, ...req.body});
     fs.writeFileSync("./data/posts.json", JSON.stringify(posts));
     res.status(201).send("post added successfully");
 }
